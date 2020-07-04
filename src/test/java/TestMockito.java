@@ -127,5 +127,7 @@ public class TestMockito {
 
         verify(spy).add("one");
         verify(spy).add("two");
+
+        System.out.println("real size >> " + list.size());
     }
 }
